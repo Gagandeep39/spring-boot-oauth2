@@ -21,7 +21,13 @@
 	</properties>
 
 	<dependencies>
-	<!-- Dependcy for Github login -->
+		<!-- Spport for CSRF token  -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>js-cookie</artifactId>
+			<version>2.1.0</version>
+		</dependency>
+		<!-- Dependcy for Github login -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-oauth2-client</artifactId>
